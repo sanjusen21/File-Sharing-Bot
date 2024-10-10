@@ -5,18 +5,18 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7731948956:AAE-euUEZAlOZC9nyWtjuJFt1lWWeJq88ZE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7510218938:AAEABGO_J4AQNltCR0XJ8uTb3nZuLNxCJMg")
 API_ID = int(os.environ.get("API_ID", "18664790"))
 API_HASH = os.environ.get("API_HASH", "cc8e57c3599c1171030ea7020f42f3bb")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "6803963354"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://ssen47641:vM7hcb4POHrVPURu@cluster0.2k1sj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://Sanju:GkdtZmIjQBTfDTrV@cluster0.i7aro.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002241383749"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002026163567"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002032457848"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "1002268924249"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600000000")) # auto delete in seconds
